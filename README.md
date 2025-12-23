@@ -3,6 +3,7 @@
 A full-stack Task Manager application built with Django (Backend) and React (Frontend).
 
 ## Features
+- **[Live Demo](https://task-manager-frontend-f3bd.onrender.com)**
 - User Authentication (Login/Register) using JWT.
 - Create, Read, Update, Delete (CRUD) tasks.
 - Mark tasks as complete/incomplete.
