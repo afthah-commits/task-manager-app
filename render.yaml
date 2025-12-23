@@ -1,3 +1,4 @@
+databases:
   - name: taskmanager_db
     databaseName: taskmanager
     user: taskmanager_user
