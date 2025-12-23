@@ -68,5 +68,5 @@ A full-stack Task Manager application built with Django (Backend) and React (Fro
 - `GET/PUT/PATCH/DELETE /api/tasks/{id}/`: Manage specific task.
 
 ## Screenshots
-![Deployment Success](screenshots/deployment.png)
-*(App is live and deployed on Render)*
+![Task Manager Dashboard](screenshots/app_dashboard.png)
+*(App Dashboard - Dark Mode)*
