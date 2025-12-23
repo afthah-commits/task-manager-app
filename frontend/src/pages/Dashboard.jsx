@@ -133,6 +133,8 @@ const Dashboard = () => {
                 </div>
             )}
 
+            <ProgressBar tasks={tasks} />
+
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 {tasks.map(task => (
                     <TaskItem
