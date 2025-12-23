@@ -1,12 +1,13 @@
-databases:
   - name: taskmanager_db
     databaseName: taskmanager
     user: taskmanager_user
+    plan: free
 
 services:
   - type: web
     name: task-manager-backend
     env: python
+    plan: free
     rootDir: backend
     buildCommand: "bash build.sh"
     startCommand: "gunicorn core.wsgi:application"
@@ -23,6 +24,7 @@ services:
   - type: web
     name: task-manager-frontend
     env: static
+    plan: free
     rootDir: frontend
     buildCommand: "npm install && npm run build"
     staticPublishPath: "frontend/dist"
